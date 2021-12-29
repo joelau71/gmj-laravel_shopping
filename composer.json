@@ -1,0 +1,26 @@
+{
+    "name": "gmj/laravel_shopping",
+    "description": "Laravel Block2 for backend and frontend - need tailwindcss support",
+    "type": "library",
+    "license": "MIT",
+     "authors": [
+        {
+            "name": "Joe Lau",
+            "email": "joe.laucw71@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GMJ\\LaravelShopping\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GMJ\\LaravelShopping\\LaravelShoppingServiceProvider"
+            ]
+        }
+    }
+}
