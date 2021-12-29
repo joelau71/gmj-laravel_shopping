@@ -2,14 +2,14 @@
 
 Laravel Block for backend and frontend - need tailwindcss support
 
-**_composer require bumbummen99/shoppingcart_**
+**_composer require bumbummen99/shoppingcart_**<br>
 https://github.com/bumbummen99/LaravelShoppingcart<br>
 php artisan vendor:publish --provider="Gloudemans\Shoppingcart\ShoppingcartServiceProvider" --tag="config"<br>
 
-**_composer require srmklive/paypal:~3.0_**
+**_composer require srmklive/paypal:~3.0_**<br>
 https://github.com/srmklive/laravel-paypal<br>
 
-**_composer require stripe/stripe-php_**
+**_composer require stripe/stripe-php_**<br>
 https://github.com/stripe/stripe-php<br>
 **composer require gmj/laravel_shopping**
 
