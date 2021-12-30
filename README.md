@@ -11,6 +11,7 @@ https://github.com/srmklive/laravel-paypal<br>
 
 **_composer require stripe/stripe-php_**<br>
 https://github.com/stripe/stripe-php<br>
+
 **composer require gmj/laravel_shopping**
 
 in terminal run:<br/>

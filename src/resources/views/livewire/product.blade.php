@@ -27,25 +27,25 @@
                 </div>
             </div>
             <div>
-                <x-admin.widget.link href="{{ route('LaravelShopping.create') }}">
+                <x-admin.atoms.link href="{{ route('LaravelShopping.create') }}">
                     ADD
-                </x-admin.widget.link>
+                </x-admin.atoms.link>
                 <x-admin.atoms.link href="{{ route('LaravelShoppingCategory') }}">
                     Category
                 </x-admin.atoms.link>
-                <x-admin.widget.button wire:click="order">
+                <x-admin.atoms.button wire:click="order">
                     Order
-                </x-admin.widget.button>
+                </x-admin.atoms.button>
             </div>
         </div>
         
         <div>
-            <x-admin.widget.index-header>
+            <x-admin.atoms.index-header>
                 <div class="flex-1">Title</div>
                 <div class="flex-1">Category</div>
                 <div class="w-20">Quantity</div>
                 <div class="flex-1"></div>
-            </x-admin.widget.index-header>
+            </x-admin.atoms.index-header>
 
             @foreach ($collections as $item)
                 <div class="flex items-center space-x-2 p-3 text-gray-800" ref="ref_{{ $item->id }}">
@@ -59,12 +59,12 @@
                         {{ $item->quantity }}
                     </div>
                     <div class="flex-1">
-                        <x-admin.widget.link href="{{ route('LaravelShopping.edit', $item->id) }}">
+                        <x-admin.atoms.link href="{{ route('LaravelShopping.edit', $item->id) }}">
                             Edit
-                        </x-admin.widget.link>
-                        <x-admin.widget.button class="remove" data-id="{{ $item->id }}">
+                        </x-admin.atoms.link>
+                        <x-admin.atoms.button class="remove" data-id="{{ $item->id }}">
                             Delete
-                        </x-admin.widget.button>
+                        </x-admin.atoms.button>
                     </div>
                 </div>
             @endforeach
